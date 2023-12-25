@@ -1,0 +1,58 @@
+*{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(skyblue, blue) ;
+    min-height: 100vh;
+}
+
+h1 {
+    background: linear-gradient(skyblue, blue) ;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,1);
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+
+input {
+    font-size: 18px;
+    border-style: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+#form>button {
+    background-color: yellow;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#form {
+    text-align: center;
+    margin: 30px 10px;
+}
+
+
+#current-todo{
+    
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: fit-content;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo-card {
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+}

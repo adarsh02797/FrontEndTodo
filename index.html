@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>
+    <h1>
+        ToDo List
+    </h1>
+    <div id="form">
+        <input type="text" id="title" onkeypress="if(event.key=='Enter')toggle()" placeholder="Title">
+        <input type="text" id="desc" onkeypress="if(event.key=='Enter'){document.querySelector('button').click()}" placeholder="Description">
+        <button onclick="addToDo()">Add</button>
+    </div>
+    <div id="current-todo"></div>
+</body>
+</html>
